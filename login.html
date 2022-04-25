@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Login</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark navbar-edit nav-edit ">
+    <div class="container-fluid">
+      <img src="Images/logo naomi.png" width="55px" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item nav-home">
+            <a class="" href="home.html">Home</a>
+          </li>
+          <li class="nav-item nav-home" >
+            <a class="" href="about.html">About</a>
+          </li>
+          <li class="nav-item nav-home">
+            <a class="" href="#">Help</a>
+            </li>
+              <li class="nav-item nav-home nav-login">
+                <a class=" active " aria-current="page" href="login.html" >Login</a>
+              </li>
+            <li class="nav-item nav-home nav-sign">
+                <a class="" href="#">Sign Up</a>
+              </li>
+              <li class="nav-item nav-home">
+                  <a href="">
+                    <img class="mt-0 mb-0" src="Images/profile.png" width="25px" alt="">
+                  </a>  
+              </li>
+              </ul> 
+      </div>
+    </div>
+  </nav>
+    <section class="mulaikonten">
+    <div class="judulhalaman">
+        <h1> Your Jazzy Endeeb </h1>
+    </div>
+    <br><br><br>
+    <!--Isi konten-->
+    <div class="card">
+        <div class="tempatlogin form-group mb-3 row mx-5">    
+            <label for="inputUsername" class="col-sm-3 col-form-label">Username</label>
+            <div class="col-sm-9">
+          <input type="username" class="form-control" id="inputUsername">
+        </div>
+      </div>
+      <div class="tempatlogin form-group mb-3 row mx-5">
+          <label for="inputPassword" class="col-sm-3 col-form-label">Password</label>
+          <div class="col-sm-9">
+              <input type="password" class="form-control" id="inputPassword">
+          </div>
+      </div>
+      <div align="center">
+      <button type="button" class="btn btn-secondary btn-lg"> log in </button>
+      <div class="pilihsignup mt-4 d-none d-lg-block">
+          <p > Don't have an account yet? <a style="text-decoration: none;" class="signup" href="#"> sign up</a> </p>
+        </div>
+        <div class="pilihsignup mt-4 d-lg-none">
+            <p > Don't have an account yet?<br> <a style="text-decoration: none;" class="signup" href="#"> sign up</a> </p>
+          </div>
+      </div>
+    </div>
+</section>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>

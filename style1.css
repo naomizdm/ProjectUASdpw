@@ -1,0 +1,129 @@
+.navbar-edit{
+    background-color: black;
+    
+}
+.container-fluid{
+    margin-left: auto;
+}
+.navbar-edit li a{
+    padding-left: px;
+}
+.nav-edit{
+    background-color: black;
+}
+.nav-home{
+    margin-left: 30px;
+    margin: auto;
+}
+.nav-home a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 50px;
+    
+}
+.letspay a{
+    float: right;
+}
+.logoletspay{
+    width: 30px;
+    margin-right: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.judulhalaman{
+    text-align: center;
+    margin-top: 80px;
+    color: black;
+}
+.form-input {
+
+}
+/* set email dan password form inputnya*/
+.form-input input {
+    width: 100%;
+    height: 45px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: 1px solid #00000000;
+    border-radius: 50px;
+    outline: none;
+    background: white;
+}
+/*set icon */
+.form-input span {
+    position: relative;
+    top: 35px;
+    float: left;
+    padding-left: 15px;
+    color: #828282;
+}
+/* set warna tulisan saat diliat pertamakali */
+.form-input input::placeholder {
+    color: #454b69;
+    padding-left: 0px;
+}
+/* set warna border form input */
+.form-input input,
+.form-input input:valid {
+border: 1px solid black;
+background-color: ;
+}
+/* set isi tulisan ketika di klik */
+.form-input input:focus::placeholder {
+    color: black;;
+}
+.gambarutama{
+    position: relative;
+    
+}
+.container{
+    text-align: center;
+}
+.konten-img{
+    width: 100%;
+    margin-top: 100px;
+}
+.h41{
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+}
+.h42{
+    color: black;
+}
+.h43{
+    color: #860202;
+}
+.btn{
+    margin-top: 15px;
+    background-color: #886F6F;
+    border-color: #886F6F;
+    border-radius: 20px;
+}
+.bg {
+    background-color: #B7CADB;
+    height: 60px;
+}
+.ss{
+    text-align: center;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    margin-top: 10px;
+}
+.ss img{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.ss h5{
+    color: black;
+    margin-top: 10px;
+}
+.pilihpc a:hover{
+    color: black;
+}

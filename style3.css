@@ -1,0 +1,50 @@
+.navbar-edit{
+    background-color: black;
+    
+}
+.container-fluid{
+    margin-left: auto;
+}
+.navbar-edit li a{
+    padding-left: px;
+}
+.nav-edit{
+    background-color: black;
+}
+.nav-home{
+    margin-left: 30px;
+    margin: auto;
+}
+.nav-home a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 50px;
+    
+}
+.image img{
+    border-radius: 100px; 
+}
+.txt p{
+  padding: 30px 30px;
+}
+.bg {
+    background-color: #B7CADB;
+    height: 60px;
+}
+.ss{
+    text-align: center;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    margin-top: 10px;
+}
+.ss img{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.ss h5{
+    color: black;
+    margin-top: 10px;
+}

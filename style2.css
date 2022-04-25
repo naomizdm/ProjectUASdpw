@@ -1,0 +1,70 @@
+.navbar-edit{
+    background-color: black;
+    
+}
+.container-fluid{
+    margin-left: auto;
+}
+.navbar-edit li a{
+    padding-left: px;
+}
+.nav-edit{
+    background-color: black;
+}
+.nav-home{
+    margin-left: 30px;
+    margin: auto;
+}
+.nav-home a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 50px;
+    
+}
+.mulaikonten{
+    height: 550px;
+}
+.judulhalaman{
+    text-align: center;
+    margin-top: 80px;
+    color: black;
+}
+.card{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #B7CADB;
+    border-color: #B7CADB;
+    height: 400px;
+}
+.tempatlogin{
+    margin-top: 40px;
+ 
+
+    margin-bottom: 200px;
+}
+.btn{
+    margin-top: 15px;
+    background-color: #886F6F;
+    border-color: #886F6F;
+    border-radius: 20px;
+    font-size: small;
+    width: 80px;
+}
+.pilihsignup a:hover{
+    color: #F24A72
+}
+.pilihsignup p{
+    text-align: center;
+}
+.signup a{
+    text-decoration: none;
+}
+p{
+    color: black;
+}
+.pilihsignup .signup{
+    margin-top: 11px;
+    margin-left: 0px;
+    color: red;
+    margin-left: 0px;
+}
